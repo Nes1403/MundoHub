@@ -599,6 +599,74 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48e4c40d4a3adf24d8c0c85346d4aa9f, type: 3}
+--- !u!1001 &230454456
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c038392630de0a640bd05e923219f78e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.663775
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c038392630de0a640bd05e923219f78e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c038392630de0a640bd05e923219f78e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 38.155197
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c038392630de0a640bd05e923219f78e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -4.3297806e-17
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c038392630de0a640bd05e923219f78e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -4.3297806e-17
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c038392630de0a640bd05e923219f78e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c038392630de0a640bd05e923219f78e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c038392630de0a640bd05e923219f78e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c038392630de0a640bd05e923219f78e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c038392630de0a640bd05e923219f78e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c038392630de0a640bd05e923219f78e,
+        type: 3}
+      propertyPath: m_Name
+      value: PosteLuz
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c038392630de0a640bd05e923219f78e, type: 3}
 --- !u!1 &306353660
 GameObject:
   m_ObjectHideFlags: 0
@@ -3122,3 +3190,4 @@ SceneRoots:
   - {fileID: 1856100638}
   - {fileID: 1683278170}
   - {fileID: 5535619366094633126}
+  - {fileID: 230454456}
