@@ -1,29 +1,9 @@
 fileFormatVersion: 2
-guid: 11ce5eccc3efa8a4082a446905704bec
+guid: 541fc23c7577b3d4c95b411a2053309f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Llantas
-    second: {fileID: 2100000, guid: c34c7b31a439ac448bb0eed42f3e408f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Puerta
-    second: {fileID: 2100000, guid: 1ab18a02241d2664086ce42639cb3d46, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Tren
-    second: {fileID: 2100000, guid: 772e1285ac4e6a0408dbd07f6f3ca5ef, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Ventanas
-    second: {fileID: 2100000, guid: f836f9d758b3d7b4abfdf73dc95210ff, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

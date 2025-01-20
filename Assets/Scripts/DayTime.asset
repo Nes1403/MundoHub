@@ -124,7 +124,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Variable_SystemSingle
       uid: 82d99c31-cf24-49f9-bfcc-def43c04526b
-      position: {x: -305.60004, y: 776.7998}
+      position: {x: -636.68005, y: 1326.3999}
       nodeUIDs:
       - 
       - 
@@ -632,7 +632,7 @@ MonoBehaviour:
         stringValue: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
     - fullName: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
       uid: f5ba0033-dcd9-497f-92d6-9a3f3675dee6
-      position: {x: 1178.584, y: -555.19995}
+      position: {x: 1211.9808, y: -579.19995}
       nodeUIDs:
       - 
       - 
@@ -645,7 +645,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|UpdateRotacion
     - fullName: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
       uid: 17ab5713-e5a5-49eb-83fa-4ac2ead6e940
-      position: {x: 1588.1003, y: -776.79987}
+      position: {x: 1577.6, y: -996.0011}
       nodeUIDs:
       - 
       - 
