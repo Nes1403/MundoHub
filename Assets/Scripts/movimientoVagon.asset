@@ -26,7 +26,10 @@ MonoBehaviour:
     null\r\n    __instance_6: %UnityEngineAnimationClipArray, null\r\n    __Int32_1:
     %SystemInt32, null\r\n    __instance_7: %UnityEngineRuntimeAnimatorController,
     null\r\n    __instance_8: %UnityEngineAnimator, null\r\n    __instance_9: %VRCUdonUdonBehaviour,
-    this\r\n    __eventName_0: %SystemString, null\r\n    trenAnimator: %UnityEngineAnimator,
+    this\r\n    __eventName_0: %SystemString, null\r\n    __Boolean_0: %SystemBoolean,
+    null\r\n    __instance_A: %VRCSDKBaseVRCPlayerApi, null\r\n    onPlayerJoinedPlayer:
+    %VRCSDKBaseVRCPlayerApi, null\r\n    __instance_B: %VRCUdonUdonBehaviour, this\r\n   
+    __eventName_1: %SystemString, null\r\n    trenAnimator: %UnityEngineAnimator,
     null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n    .export si\r\n    \r\n   
     si:\r\n    \r\n        PUSH, trenAnimator\r\n        PUSH, __instance_0\r\n       
     COPY\r\n        PUSH, __value_0\r\n        EXTERN, \"VRCSDKBaseNetworking.__GetServerTimeInSeconds__SystemDouble\"\r\n       
@@ -52,7 +55,13 @@ MonoBehaviour:
     JUMP, 0xFFFFFFFC\r\n    \r\n    .export _start\r\n    \r\n    _start:\r\n   
     \r\n        PUSH, __instance_9\r\n        PUSH, __eventName_0\r\n        EXTERN,
     \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
-    JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
+    JUMP, 0xFFFFFFFC\r\n    \r\n    .export _onPlayerJoined\r\n    \r\n    _onPlayerJoined:\r\n   
+    \r\n        PUSH, onPlayerJoinedPlayer\r\n        PUSH, __instance_A\r\n       
+    COPY\r\n        PUSH, __instance_A\r\n        PUSH, __Boolean_0\r\n        EXTERN,
+    \"VRCSDKBaseVRCPlayerApi.__get_isLocal__SystemBoolean\"\r\n        PUSH, __Boolean_0\r\n       
+    JUMP_IF_FALSE, 0x00000220\r\n        PUSH, __instance_B\r\n        PUSH, __eventName_1\r\n       
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
+    JUMP, 0x00000220\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
   assemblyError: 
   graphData:
     name: 
@@ -180,7 +189,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: UnityEngineRuntimeAnimatorController.__get_animationClips__UnityEngineAnimationClipArray
       uid: 1d33afab-9142-466b-9b60-36b582125f27
-      position: {x: 370.49258, y: 171.88326}
+      position: {x: 345.60004, y: 171.20001}
       nodeUIDs:
       - 8940e203-e36f-4500-9211-f8c1ae5f9c01
       flowUIDs: []
@@ -189,7 +198,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: UnityEngineAnimationClipArray.__Get__SystemInt32__UnityEngineAnimationClip
       uid: 67a610d4-05bc-4a87-86ba-1a754f0edc66
-      position: {x: 596.89246, y: 275.88312}
+      position: {x: 597.72, y: 275.20004}
       nodeUIDs:
       - 1d33afab-9142-466b-9b60-36b582125f27
       - 
@@ -233,7 +242,7 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: 
       - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|animacionVagon
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|VehiculosAnim
       - unityObjectValue: {fileID: 0}
         stringValue: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
       - unityObjectValue: {fileID: 0}
@@ -282,11 +291,12 @@ MonoBehaviour:
       uid: 70b73c69-ec56-47bb-b9f6-f4d04214b9aa
       position: {x: -516.6677, y: 114.90004}
       nodeUIDs: []
-      flowUIDs: []
+      flowUIDs:
+      - b7de5b90-2521-4e90-b732-aae47e37059b
       nodeValues: []
     - fullName: VRCSDKBaseVRCPlayerApi.__get_isLocal__SystemBoolean
       uid: ffb5ac85-f095-4458-a19f-ab5cd892389b
-      position: {x: -282.82767, y: 222.09999}
+      position: {x: -330.58197, y: 364.80002}
       nodeUIDs:
       - 70b73c69-ec56-47bb-b9f6-f4d04214b9aa
       flowUIDs: []
