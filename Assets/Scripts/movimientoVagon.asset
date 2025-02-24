@@ -26,10 +26,8 @@ MonoBehaviour:
     null\r\n    __instance_6: %UnityEngineAnimationClipArray, null\r\n    __Int32_1:
     %SystemInt32, null\r\n    __instance_7: %UnityEngineRuntimeAnimatorController,
     null\r\n    __instance_8: %UnityEngineAnimator, null\r\n    __instance_9: %VRCUdonUdonBehaviour,
-    this\r\n    __eventName_0: %SystemString, null\r\n    __Boolean_0: %SystemBoolean,
-    null\r\n    __instance_A: %VRCSDKBaseVRCPlayerApi, null\r\n    onPlayerJoinedPlayer:
-    %VRCSDKBaseVRCPlayerApi, null\r\n    __instance_B: %VRCUdonUdonBehaviour, this\r\n   
-    __eventName_1: %SystemString, null\r\n    trenAnimator: %UnityEngineAnimator,
+    this\r\n    __eventName_0: %SystemString, null\r\n    __instance_A: %VRCUdonUdonBehaviour,
+    this\r\n    __eventName_1: %SystemString, null\r\n    trenAnimator: %UnityEngineAnimator,
     null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n    .export si\r\n    \r\n   
     si:\r\n    \r\n        PUSH, trenAnimator\r\n        PUSH, __instance_0\r\n       
     COPY\r\n        PUSH, __value_0\r\n        EXTERN, \"VRCSDKBaseNetworking.__GetServerTimeInSeconds__SystemDouble\"\r\n       
@@ -56,12 +54,9 @@ MonoBehaviour:
     \r\n        PUSH, __instance_9\r\n        PUSH, __eventName_0\r\n        EXTERN,
     \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
     JUMP, 0xFFFFFFFC\r\n    \r\n    .export _onPlayerJoined\r\n    \r\n    _onPlayerJoined:\r\n   
-    \r\n        PUSH, onPlayerJoinedPlayer\r\n        PUSH, __instance_A\r\n       
-    COPY\r\n        PUSH, __instance_A\r\n        PUSH, __Boolean_0\r\n        EXTERN,
-    \"VRCSDKBaseVRCPlayerApi.__get_isLocal__SystemBoolean\"\r\n        PUSH, __Boolean_0\r\n       
-    JUMP_IF_FALSE, 0x00000220\r\n        PUSH, __instance_B\r\n        PUSH, __eventName_1\r\n       
-    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
-    JUMP, 0x00000220\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
+    \r\n        PUSH, __instance_A\r\n        PUSH, __eventName_1\r\n        EXTERN,
+    \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
+    JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
   assemblyError: 
   graphData:
     name: 
@@ -292,7 +287,7 @@ MonoBehaviour:
       position: {x: -516.6677, y: 114.90004}
       nodeUIDs: []
       flowUIDs:
-      - b7de5b90-2521-4e90-b732-aae47e37059b
+      - c1e58060-fe42-4044-aa6c-22a581420b7a
       nodeValues: []
     - fullName: VRCSDKBaseVRCPlayerApi.__get_isLocal__SystemBoolean
       uid: ffb5ac85-f095-4458-a19f-ab5cd892389b
@@ -305,11 +300,11 @@ MonoBehaviour:
         stringValue: 
     - fullName: Branch
       uid: b7de5b90-2521-4e90-b732-aae47e37059b
-      position: {x: -106.92154, y: 299.70007}
+      position: {x: -117.59998, y: 406.4}
       nodeUIDs:
       - ffb5ac85-f095-4458-a19f-ab5cd892389b
       flowUIDs:
-      - c1e58060-fe42-4044-aa6c-22a581420b7a
+      - 
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
