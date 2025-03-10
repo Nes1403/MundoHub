@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1306427331a2a4c42964ed4e25047846
+guid: a6ead3e226667fc44a4fb75037bd7ff8
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -8,12 +8,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: ClearMetalMat
-    second: {fileID: 2100000, guid: 6a6f72fc33db72f47867c5505f442d22, type: 2}
+    second: {fileID: 2100000, guid: 637f4f807d9e4cc40b2226f7ea2af658, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: MetalMat
-    second: {fileID: 2100000, guid: aa92ebbad8dde6a44bf543e9bf700934, type: 2}
+    second: {fileID: 2100000, guid: 1c45a80c2a15f1b4fa58cac61c658c38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TechoMat
+    second: {fileID: 2100000, guid: ad559c63a1681204ead4f9a8ca5d6b80, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

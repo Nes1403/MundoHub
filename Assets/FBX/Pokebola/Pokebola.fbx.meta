@@ -3,7 +3,17 @@ guid: 84cece8987b04844ca1f03652cc536a9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BasePokebola
+    second: {fileID: 2100000, guid: 7d218c71b11e7fd41bb5daf0883dbeae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pokebola
+    second: {fileID: 2100000, guid: d286ff16f3a8f6c46a5cc6fc64d5e84c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
