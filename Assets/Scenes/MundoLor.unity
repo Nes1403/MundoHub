@@ -4738,6 +4738,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2115925005}
     m_Modifications:
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: roomId
+      value: wrld_d9e31028-b15d-4fd9-9cfe-d7128aca9b65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: customPortalName
+      value: PTAR Cerro de la Estrella
+      objectReference: {fileID: 0}
     - target: {fileID: 5120048637162416425, guid: 77a89e097657af54c85573a268691d5f,
         type: 3}
       propertyPath: m_Name
@@ -5737,6 +5747,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1165121158}
     m_Modifications:
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: roomId
+      value: wrld_76164f38-68d8-4326-9ad0-6624016cb3a5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: customPortalName
+      value: LOR Prueba de impacto
+      objectReference: {fileID: 0}
     - target: {fileID: 5120048637162416425, guid: 77a89e097657af54c85573a268691d5f,
         type: 3}
       propertyPath: m_Name
@@ -10664,9 +10684,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 906301974}
   - {fileID: 802428972}
   - {fileID: 1422727159}
+  - {fileID: 906301974}
   m_Father: {fileID: 187755134}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &469326216
@@ -14806,6 +14826,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 497709288}
     m_Modifications:
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: roomId
+      value: wrld_2db89626-f2b0-4c64-a631-def451b4d19e
+      objectReference: {fileID: 0}
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: customPortalName
+      value: NERV GEMDIG Simplificado
+      objectReference: {fileID: 0}
     - target: {fileID: 5120048637162416425, guid: 77a89e097657af54c85573a268691d5f,
         type: 3}
       propertyPath: m_Name
@@ -16985,6 +17015,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1165121158}
     m_Modifications:
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: roomId
+      value: wrld_a92d6b5d-547e-4ab8-8648-d2dd178da301
+      objectReference: {fileID: 0}
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: customPortalName
+      value: "LOR Laboratorio de Tracci\xF3n"
+      objectReference: {fileID: 0}
     - target: {fileID: 5120048637162416425, guid: 77a89e097657af54c85573a268691d5f,
         type: 3}
       propertyPath: m_Name
@@ -19245,6 +19285,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2115925005}
     m_Modifications:
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: roomId
+      value: wrld_83fa9051-d19e-4cd2-84cf-dff70ec7bfa8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: customPortalName
+      value: Prueba de Calentamiento de Materiales
+      objectReference: {fileID: 0}
     - target: {fileID: 5120048637162416425, guid: 77a89e097657af54c85573a268691d5f,
         type: 3}
       propertyPath: m_Name
@@ -21350,6 +21400,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 497709288}
     m_Modifications:
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: roomId
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: customPortalName
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5120048637162416425, guid: 77a89e097657af54c85573a268691d5f,
         type: 3}
       propertyPath: m_Name
@@ -22025,6 +22085,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2115925005}
     m_Modifications:
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: roomId
+      value: wrld_26e313f6-cebb-4a09-a195-54fa9d8d4469
+      objectReference: {fileID: 0}
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: customPortalName
+      value: Lab Descarga 2.0 2023-1
+      objectReference: {fileID: 0}
     - target: {fileID: 5120048637162416425, guid: 77a89e097657af54c85573a268691d5f,
         type: 3}
       propertyPath: m_Name
@@ -23750,6 +23820,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 497709288}
     m_Modifications:
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: roomId
+      value: wrld_4bda52ca-0985-477a-be70-5b02be8c9fea
+      objectReference: {fileID: 0}
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: customPortalName
+      value: "LOR Neum\xE1tica 1U"
+      objectReference: {fileID: 0}
     - target: {fileID: 5120048637162416425, guid: 77a89e097657af54c85573a268691d5f,
         type: 3}
       propertyPath: m_Name
@@ -28368,6 +28448,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2115925005}
     m_Modifications:
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: roomId
+      value: wrld_6b8c4393-021a-47aa-a405-c442ac16b851
+      objectReference: {fileID: 0}
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: customPortalName
+      value: LOR Caldera (Encendido)
+      objectReference: {fileID: 0}
     - target: {fileID: 5120048637162416425, guid: 77a89e097657af54c85573a268691d5f,
         type: 3}
       propertyPath: m_Name
@@ -30886,6 +30976,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1165121158}
     m_Modifications:
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: roomId
+      value: wrld_9da50bb7-ec64-457a-8f6b-f060fbc63f58
+      objectReference: {fileID: 0}
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: customPortalName
+      value: LOR Prueba de dureza
+      objectReference: {fileID: 0}
     - target: {fileID: 5120048637162416425, guid: 77a89e097657af54c85573a268691d5f,
         type: 3}
       propertyPath: m_Name
@@ -31319,12 +31419,12 @@ PrefabInstance:
     - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
         type: 3}
       propertyPath: roomId
-      value: wrld_6d552c53-7d51-49eb-84d9-e6f76622df95
+      value: wrld_850d2f66-5f00-4faa-a23a-b184d31093c1
       objectReference: {fileID: 0}
     - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
         type: 3}
       propertyPath: customPortalName
-      value: Prueba
+      value: "LOR Metalograf\xEDa"
       objectReference: {fileID: 0}
     - target: {fileID: 5120048637162416425, guid: 77a89e097657af54c85573a268691d5f,
         type: 3}
@@ -34216,6 +34316,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 497709288}
     m_Modifications:
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: roomId
+      value: wrld_868a4a8c-dd26-48ac-b318-960208c212a4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: customPortalName
+      value: "LOR Neum\xE1tica GemDig."
+      objectReference: {fileID: 0}
     - target: {fileID: 5120048637162416425, guid: 77a89e097657af54c85573a268691d5f,
         type: 3}
       propertyPath: m_Name
@@ -36599,6 +36709,7 @@ Transform:
   - {fileID: 690256080}
   - {fileID: 1494187502}
   - {fileID: 353558254}
+  - {fileID: 2077099097}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1541343148
@@ -36861,6 +36972,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 497709288}
     m_Modifications:
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: roomId
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: customPortalName
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5120048637162416425, guid: 77a89e097657af54c85573a268691d5f,
         type: 3}
       propertyPath: m_Name
@@ -43208,6 +43329,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 497709288}
     m_Modifications:
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: roomId
+      value: wrld_974e0c3e-01c7-40f0-80f4-037f01e261f0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: customPortalName
+      value: GEMDIG SimplificadoEmpacadora
+      objectReference: {fileID: 0}
     - target: {fileID: 5120048637162416425, guid: 77a89e097657af54c85573a268691d5f,
         type: 3}
       propertyPath: m_Name
@@ -43644,6 +43775,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 497709288}
     m_Modifications:
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: roomId
+      value: wrld_587bd608-5e73-42d4-948c-59f188c6b05a
+      objectReference: {fileID: 0}
+    - target: {fileID: 3057416176344761514, guid: 77a89e097657af54c85573a268691d5f,
+        type: 3}
+      propertyPath: customPortalName
+      value: "LOR Neum\xE1tica GEMDIG Elevadora"
+      objectReference: {fileID: 0}
     - target: {fileID: 5120048637162416425, guid: 77a89e097657af54c85573a268691d5f,
         type: 3}
       propertyPath: m_Name
@@ -48123,7 +48264,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1537258671}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: b68046adb687df844a972dd0519fa40a,
         type: 3}
@@ -48138,7 +48279,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b68046adb687df844a972dd0519fa40a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -30
+      value: -60
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b68046adb687df844a972dd0519fa40a,
         type: 3}
@@ -48148,7 +48289,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b68046adb687df844a972dd0519fa40a,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b68046adb687df844a972dd0519fa40a,
         type: 3}
@@ -48158,7 +48299,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b68046adb687df844a972dd0519fa40a,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b68046adb687df844a972dd0519fa40a,
         type: 3}
@@ -48217,6 +48358,12 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1716842359454501035, guid: b68046adb687df844a972dd0519fa40a, type: 3}
+--- !u!4 &2077099097 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b68046adb687df844a972dd0519fa40a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2077099094}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2080280863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50053,4 +50200,3 @@ SceneRoots:
   - {fileID: 688978369}
   - {fileID: 1469312124}
   - {fileID: 383063467}
-  - {fileID: 2077099094}
