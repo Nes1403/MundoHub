@@ -72,8 +72,12 @@ MonoBehaviour:
     null\r\n    __name_4: %SystemString, null\r\n    __instance_12: %VRCUdonUdonBehaviour,
     this\r\n    __symbolName_3: %SystemString, null\r\n    __value_C: %SystemObject,
     null\r\n    __Boolean_C: %SystemBoolean, null\r\n    __Boolean_D: %SystemBoolean,
+    null\r\n    __Boolean_E: %SystemBoolean, null\r\n    __Boolean_F: %SystemBoolean,
     null\r\n    __Single_28: %SystemSingle, null\r\n    __Single_29: %SystemSingle,
     null\r\n    __Single_2A: %SystemSingle, null\r\n    __Single_2B: %SystemSingle,
+    null\r\n    __Boolean_10: %SystemBoolean, null\r\n    __Boolean_11: %SystemBoolean,
+    null\r\n    __Single_2C: %SystemSingle, null\r\n    __Single_2D: %SystemSingle,
+    null\r\n    __Single_2E: %SystemSingle, null\r\n    __Single_2F: %SystemSingle,
     null\r\n    sol: %UnityEngineLight, null\r\n    tiempo: %SystemSingle, null\r\n   
     velocidadRotacion: %SystemSingle, null\r\n    skyColor: %UnityEngineGradient,
     null\r\n    equatorColor: %UnityEngineGradient, null\r\n    sunColor: %UnityEngineGradient,
@@ -197,12 +201,20 @@ MonoBehaviour:
     EXTERN, \"SystemBoolean.__op_LogicalAnd__SystemBoolean_SystemBoolean__SystemBoolean\"\r\n       
     PUSH, __instance_11\r\n        PUSH, __symbolName_2\r\n        PUSH, __value_B\r\n       
     EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid\"\r\n       
-    PUSH, tiempo\r\n        PUSH, __Single_29\r\n        PUSH, __Boolean_C\r\n       
+    PUSH, tiempo\r\n        PUSH, __Single_29\r\n        PUSH, __Boolean_E\r\n       
     EXTERN, \"SystemSingle.__op_GreaterThan__SystemSingle_SystemSingle__SystemBoolean\"\r\n       
-    PUSH, tiempo\r\n        PUSH, __Single_2B\r\n        PUSH, __Boolean_D\r\n       
+    PUSH, tiempo\r\n        PUSH, __Single_2B\r\n        PUSH, __Boolean_F\r\n       
     EXTERN, \"SystemSingle.__op_LessThan__SystemSingle_SystemSingle__SystemBoolean\"\r\n       
-    PUSH, __Boolean_C\r\n        PUSH, __Boolean_D\r\n        PUSH, __value_C\r\n       
+    PUSH, __Boolean_E\r\n        PUSH, __Boolean_F\r\n        PUSH, __Boolean_C\r\n       
     EXTERN, \"SystemBoolean.__op_LogicalAnd__SystemBoolean_SystemBoolean__SystemBoolean\"\r\n       
+    PUSH, tiempo\r\n        PUSH, __Single_2D\r\n        PUSH, __Boolean_10\r\n       
+    EXTERN, \"SystemSingle.__op_GreaterThan__SystemSingle_SystemSingle__SystemBoolean\"\r\n       
+    PUSH, tiempo\r\n        PUSH, __Single_2F\r\n        PUSH, __Boolean_11\r\n       
+    EXTERN, \"SystemSingle.__op_LessThan__SystemSingle_SystemSingle__SystemBoolean\"\r\n       
+    PUSH, __Boolean_10\r\n        PUSH, __Boolean_11\r\n        PUSH, __Boolean_D\r\n       
+    EXTERN, \"SystemBoolean.__op_LogicalAnd__SystemBoolean_SystemBoolean__SystemBoolean\"\r\n       
+    PUSH, __Boolean_C\r\n        PUSH, __Boolean_D\r\n        PUSH, __value_C\r\n       
+    EXTERN, \"SystemBoolean.__op_LogicalOr__SystemBoolean_SystemBoolean__SystemBoolean\"\r\n       
     PUSH, __instance_12\r\n        PUSH, __symbolName_3\r\n        PUSH, __value_C\r\n       
     EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid\"\r\n       
     JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
@@ -1375,7 +1387,7 @@ MonoBehaviour:
           PublicKeyToken=b77a5c561934e089|False
     - fullName: Get_Variable
       uid: b0023454-3d65-47a8-8c8b-25d94a7c8985
-      position: {x: 1525.9822, y: -856}
+      position: {x: 1343.2054, y: -867.2001}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -1386,7 +1398,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: SystemSingle.__op_GreaterThan__SystemSingle_SystemSingle__SystemBoolean
       uid: 3e2eb544-3858-458f-9574-47643e325bff
-      position: {x: 1850.3999, y: -950.39996}
+      position: {x: 1654.3999, y: -1074.4003}
       nodeUIDs:
       - b0023454-3d65-47a8-8c8b-25d94a7c8985|0
       - 
@@ -1395,10 +1407,10 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|12.99
+        stringValue: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|10.74
     - fullName: SystemSingle.__op_LessThan__SystemSingle_SystemSingle__SystemBoolean
       uid: f82dd812-af02-4dc2-994c-cd4e69e902ef
-      position: {x: 1853.9764, y: -814.39996}
+      position: {x: 1657.5997, y: -950.40015}
       nodeUIDs:
       - b0023454-3d65-47a8-8c8b-25d94a7c8985|0
       - 
@@ -1407,7 +1419,7 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|13.01
+        stringValue: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|10.76
     - fullName: Variable_SystemBoolean
       uid: 7d1156ee-e1d2-4708-bcc0-0e588d0669f1
       position: {x: 0, y: 0}
@@ -1433,7 +1445,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: SystemBoolean.__op_LogicalAnd__SystemBoolean_SystemBoolean__SystemBoolean
       uid: 1855eb76-eb98-42c0-9a3d-568ded9c719c
-      position: {x: 2111.313, y: -896.76825}
+      position: {x: 1859.6001, y: -1020.8001}
       nodeUIDs:
       - 3e2eb544-3858-458f-9574-47643e325bff|0
       - f82dd812-af02-4dc2-994c-cd4e69e902ef|0
@@ -1447,10 +1459,10 @@ MonoBehaviour:
           PublicKeyToken=b77a5c561934e089|False
     - fullName: Set_Variable
       uid: 204dc5d4-f60a-4e73-a207-e9c26130ad96
-      position: {x: 2391.321, y: -975.20013}
+      position: {x: 2335.687, y: -1413.0903}
       nodeUIDs:
       - 
-      - 1855eb76-eb98-42c0-9a3d-568ded9c719c|0
+      - 3dbe057e-8ebb-4489-9967-c4c6da5a0a54|0
       - 
       flowUIDs:
       - 
@@ -1516,6 +1528,58 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|7d1156ee-e1d2-4708-bcc0-0e588d0669f1
       - unityObjectValue: {fileID: 0}
         stringValue: 
+    - fullName: SystemSingle.__op_GreaterThan__SystemSingle_SystemSingle__SystemBoolean
+      uid: 6d08b9c0-709a-4046-a707-db8ac26ee19d
+      position: {x: 1653.6001, y: -828.8002}
+      nodeUIDs:
+      - b0023454-3d65-47a8-8c8b-25d94a7c8985|0
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|17.74
+    - fullName: SystemSingle.__op_LessThan__SystemSingle_SystemSingle__SystemBoolean
+      uid: 34e3da25-f698-4ef2-abea-78f03a0327be
+      position: {x: 1657.6001, y: -704.8002}
+      nodeUIDs:
+      - b0023454-3d65-47a8-8c8b-25d94a7c8985|0
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|17.76
+    - fullName: SystemBoolean.__op_LogicalAnd__SystemBoolean_SystemBoolean__SystemBoolean
+      uid: 1a3c9218-bc8d-4dd9-9361-4585451c4faf
+      position: {x: 1859.2001, y: -775.2002}
+      nodeUIDs:
+      - 6d08b9c0-709a-4046-a707-db8ac26ee19d
+      - 34e3da25-f698-4ef2-abea-78f03a0327be
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+    - fullName: SystemBoolean.__op_LogicalOr__SystemBoolean_SystemBoolean__SystemBoolean
+      uid: 3dbe057e-8ebb-4489-9967-c4c6da5a0a54
+      position: {x: 2067.7407, y: -1004.7999}
+      nodeUIDs:
+      - 1855eb76-eb98-42c0-9a3d-568ded9c719c|0
+      - 1a3c9218-bc8d-4dd9-9361-4585451c4faf|0
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     updateOrder: 0
   graphElementData: []
   version: 1.0.0
