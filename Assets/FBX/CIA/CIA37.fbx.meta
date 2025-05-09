@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c50842dde8490354bb073ac10585bf81
+guid: 5a85d8a39efffc3479bb96dafbba4bff
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,23 +7,38 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Baranda
+    second: {fileID: 2100000, guid: 74d29c1114aa75348b9541f712c68324, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ColorRoca
+    second: {fileID: 2100000, guid: 9c5d5c3ef5fbcfa4fbe5e5b7ebd963fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ColorVentana
+    second: {fileID: 2100000, guid: 56c48839e55ed2f4eb486b2a6d3b54cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 548349afc687cb242aa6b909f8154a7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Material.001
-    second: {fileID: 2100000, guid: 48b1e359592508542890025bd6659a6e, type: 2}
+    second: {fileID: 2100000, guid: e9b8a49442f066c4a86ec18df64a67de, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.002
-    second: {fileID: 2100000, guid: 6cf76d4713217ca4bbbf51249191605c, type: 2}
+    second: {fileID: 2100000, guid: 4e66fb0a67fd409439c9d41cd7879121, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.003
-    second: {fileID: 2100000, guid: 9becec912846a064ba67dd0c35368345, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: SueloMat
-    second: {fileID: 2100000, guid: d3a08feab7aa31d4eae69cfd7483bfad, type: 2}
+      name: transparente
+    second: {fileID: 2100000, guid: 608a6415b4b95c041b594ee92432a4e5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
