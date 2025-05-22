@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - minimapa
+  - LimiteBalon
   layers:
   - Default
   - TransparentFX
@@ -35,8 +36,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - Balon
+  - LimiteBalon
   - minimapa
   m_SortingLayers:
   - name: Default
