@@ -179,7 +179,7 @@ MonoBehaviour:
   DisallowTheft: 0
   ExactGun: {fileID: 0}
   ExactGrip: {fileID: 0}
-  allowManipulationWhenEquipped: 0
+  allowManipulationWhenEquipped: 1
   orientation: 0
   AutoHold: 0
   InteractionText: 
