@@ -376,7 +376,7 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|18.5
+        stringValue: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|19.5
     - fullName: SystemSingle.__op_LessThan__SystemSingle_SystemSingle__SystemBoolean
       uid: 44beac4a-8b52-45d3-a1c0-2b0010a9c499
       position: {x: -657.59985, y: 394.4}
