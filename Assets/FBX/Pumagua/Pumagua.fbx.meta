@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 862826974074d594488da9181045a45f
+guid: 8add0d98e900c674e8fac511c068654f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: MetalPumagua
-    second: {fileID: 2100000, guid: 14f1214664a7d1441a794609ddd80b90, type: 2}
+    second: {fileID: 2100000, guid: e62cd19c99258c64390ae01363f22b4e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
