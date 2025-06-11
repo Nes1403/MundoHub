@@ -183,15 +183,15 @@ MonoBehaviour:
   orientation: 0
   AutoHold: 0
   InteractionText: 
-  UseText: Use
+  UseText: "Agarrar bal\xF3n"
   useEventBroadcastType: 0
   UseDownEventName: 
   UseUpEventName: 
   pickupDropEventBroadcastType: 0
   PickupEventName: 
   DropEventName: 
-  ThrowVelocityBoostMinSpeed: 1
-  ThrowVelocityBoostScale: 1
+  ThrowVelocityBoostMinSpeed: 3
+  ThrowVelocityBoostScale: 1.5
   currentlyHeldBy: {fileID: 0}
   pickupable: 1
   proximity: 2
