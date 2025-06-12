@@ -9585,6 +9585,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 557054654}
     m_Modifications:
+    - target: {fileID: 1896062050443416142, guid: 2d20d45cdff62944bb7d08fb9045757c,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2364664598822402225, guid: 2d20d45cdff62944bb7d08fb9045757c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9648,7 +9653,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7878509742052977293, guid: 2d20d45cdff62944bb7d08fb9045757c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 2d20d45cdff62944bb7d08fb9045757c, type: 3}
 --- !u!4 &473247192 stripped
 Transform:
@@ -11272,6 +11281,134 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 922099277}
   m_SourcePrefab: {fileID: 100100000, guid: ee103c8e896daae4eb1c504449796418, type: 3}
+--- !u!1 &560315110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 560315112}
+  - component: {fileID: 560315111}
+  m_Layer: 0
+  m_Name: Naturaleza
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &560315111
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560315110}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 972f37ca9a5cb34419e3b65e8f35867f, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &560315112
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560315110}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 57.42266, y: 1.100939, z: 57.734055}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &560688638 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7029948723529949830, guid: c35b7707bd05acd468a50d0cb1e44468,
@@ -24416,7 +24553,7 @@ Transform:
   m_GameObject: {fileID: 1099985972}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -25540,7 +25677,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1165121158}
   m_Layer: 0
-  m_Name: ZonaPokeBola
+  m_Name: ZonaLeonardita
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39207,6 +39344,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 557054654}
     m_Modifications:
+    - target: {fileID: 1896062050443416142, guid: 2d20d45cdff62944bb7d08fb9045757c,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2364664598822402225, guid: 2d20d45cdff62944bb7d08fb9045757c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -39295,7 +39437,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7878509742052977293, guid: 2d20d45cdff62944bb7d08fb9045757c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 2d20d45cdff62944bb7d08fb9045757c, type: 3}
 --- !u!4 &1864606706 stripped
 Transform:
@@ -39727,6 +39873,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 557054654}
     m_Modifications:
+    - target: {fileID: 1896062050443416142, guid: 2d20d45cdff62944bb7d08fb9045757c,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2364664598822402225, guid: 2d20d45cdff62944bb7d08fb9045757c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -39820,7 +39971,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7878509742052977293, guid: 2d20d45cdff62944bb7d08fb9045757c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 2d20d45cdff62944bb7d08fb9045757c, type: 3}
 --- !u!4 &1887884911 stripped
 Transform:
@@ -44690,6 +44845,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 557054654}
     m_Modifications:
+    - target: {fileID: 1896062050443416142, guid: 2d20d45cdff62944bb7d08fb9045757c,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3780128882913548091, guid: 2d20d45cdff62944bb7d08fb9045757c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -44748,7 +44908,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7878509742052977293, guid: 2d20d45cdff62944bb7d08fb9045757c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 2d20d45cdff62944bb7d08fb9045757c, type: 3}
 --- !u!4 &1007228784462701210 stripped
 Transform:
@@ -45244,3 +45408,4 @@ SceneRoots:
   - {fileID: 977731530}
   - {fileID: 1099985973}
   - {fileID: 607014566}
+  - {fileID: 560315112}
