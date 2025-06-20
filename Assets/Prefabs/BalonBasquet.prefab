@@ -190,8 +190,8 @@ MonoBehaviour:
   pickupDropEventBroadcastType: 0
   PickupEventName: 
   DropEventName: 
-  ThrowVelocityBoostMinSpeed: 3
-  ThrowVelocityBoostScale: 1.5
+  ThrowVelocityBoostMinSpeed: 2.5
+  ThrowVelocityBoostScale: 1.25
   currentlyHeldBy: {fileID: 0}
   pickupable: 1
   proximity: 2
